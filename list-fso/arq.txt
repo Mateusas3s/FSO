@@ -1,0 +1,6 @@
+1 - os processos filhos e neto de 1001 devem ser lançados de pois da leitura da String
+2- para o processo 1001 ler o tamanho da string, foi usado o retorno do status da função 
+exit() que é armazenada na função wait(), que no caso pega o status do processo filho
+quando ele finaliza.
+3 - não consegui implementar as funções de sinais para ordenar a chamada das funções de
+impressão da string na ordem correta
